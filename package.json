@@ -1,5 +1,5 @@
 {
-  "name": "Rent A Dog",
+  "name": "RentADog",
   "version": "0.0.1",
   "dependencies": {
     "jquery": "~3.1.1",
