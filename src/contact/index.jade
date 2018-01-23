@@ -5,4 +5,30 @@ block config
   - var baseUrl = '../'
 
 block content
-  p contact page
+  h1 Would you like to rent your own dog or just have some general questions?
+ 
+  p Please fill out some contact information and we will reach you as soon as possible!
+
+  p Name
+  input(type='text', name='sessionID', value=valueID)
+
+  p Phone Number
+  input(type='text', name='sessionID', value=valueID)
+
+  p E-mail Address
+  input(type='text', name='sessionID', value=valueID)
+     
+  block footer
+  footer
+  ul
+  li
+    a(href="/") Home
+  li
+    a(href="/orderform") Order Form
+  li
+    a(href="/dogs") Check out dogs here!
+  li
+    a(href="/menupage") Pick your dog here!
+  footer
+  p
+    img.logo(src="images/https://az616578.vo.msecnd.net/files/2016/06/17/636017344804814168-1934845513_PUG.jpg", width="150px")
