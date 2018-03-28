@@ -5,8 +5,14 @@ block config
   - var baseUrl = '../'
 
 block content
+  .navbar
+    a(href='/') Home
+    a(href='/contact') Contact
+    a(href='/dogs') Dog Selection
+    a(href='/orderform') Order form
+    a(href='/menupage') Pick Dog Here!
   h1 Would you like to rent your own dog or just have some general questions?
- 
+  
   p Please fill out some contact information and we will reach you as soon as possible!
 
   p Name
@@ -17,18 +23,16 @@ block content
 
   p E-mail Address
   input(type='text', name='sessionID', value=valueID)
+  
+  
+  p 
+  img.logo(src="https://images.megapixl.com/4355/43558615.jpg", width="300px")
      
-  block footer
-  footer
-  ul
-  li
+  .navbar-b
     a(href="/") Home
-  li
+    a(href="/contact") Contact
     a(href="/orderform") Order Form
-  li
     a(href="/dogs") Check out dogs here!
-  li
     a(href="/menupage") Pick your dog here!
-  footer
-  p
-    img.logo(src="images/https://az616578.vo.msecnd.net/files/2016/06/17/636017344804814168-1934845513_PUG.jpg", width="150px")
+    p.
+      Rent-A-Dog Foundation 2017

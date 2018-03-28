@@ -5,19 +5,41 @@ block config
   - var baseUrl = '../'
 
 block content
-  p dogs page
-  block footer
-  footer
+  .navbar
+    a(href='/') Home
+    a(href='/contact') Contact
+    a(href='/dogs') Dog Selection
+    a(href='/orderform') Order form
+    a(href='/menupage') Pick Dog Here!
+  h2 Check out our wonderful Dog selection
+  p
+    If you click the dogs name you'll be taken to the menu page where you can see what our dogs are like!
   ul
   li
-  a(href="/") Home
+   a(href="/menupage")
+     img.logo(src="/images/IMG_00341.jpg", width="300px")
+     span Caley
   li
-  a(href="/contact") Contact
+   a(href="/menupage") 
+    img.logo(src="https://wallpapercave.com/wp/ewes3uq.jpg", width="300px")
+    span Dominick
   li
-  a(href="/orderform") Order Form
+   a(href="/menupage") 
+    img.logo(src="http://www.4freephotos.com/medium/2015/Cute-beagle-dog-6346.jpg", width="300px")
+    span McDaniel
   li
-  a(href="/menupage") Pick your dog here!
-  li.
-  p.
-    Rent-A-Dog Foundation 2017
-  footer
+   a(href="/menupage") 
+    img.logo(src="https://ewedit.files.wordpress.com/2017/07/gettyimages-140903913.jpg?crop=0px%2C1484px%2C1800px%2C946px&resize=1200%2C630", width="300px")
+    span Rowdy 
+  li
+  a(href="/menupage") 
+    img.logo(src="https://i.pinimg.com/736x/38/51/15/385115bedf85d129539d85d809bd0d6c--labrador-dogs-black-labrador-retriever.jpg", width="250px")
+    span Edsward
+  .navbar-b
+    a(href="/") Home
+    a(href="/contact") Contact
+    a(href="/orderform") Order Form
+    a(href="/dogs") Check out dogs here!
+    a(href="/menupage") Pick your dog here!
+    p.
+      Rent-A-Dog Foundation 2017

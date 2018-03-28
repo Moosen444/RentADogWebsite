@@ -5,20 +5,56 @@ block config
   - var baseUrl = '../'
 
 block content
+  .navbar
+    a(href='/') Home
+    a(href='/contact') Contact
+    a(href='/dogs') Dog Selection
+    a(href='/orderform') Order form
+    a(href='/menupage') Pick Dog Here!
   h2 Choose which dog you would like to Rent!
-  p 
-  block footer
-  footer
-  ul
-  li
-  a(href="/") Home
-  li
-  a(href="/contact") Contact
-  li
-  a(href="/orderform") Order Form
-  li
-  a(href="/dogs") Check out dogs here!
-  li.
-  p.
-    Rent-A-Dog Foundation 2017
-  footer
+  h3 See which dog is a perfect fit for your home!
+  ul 
+   h4 
+    a(href="/orderform") Caley
+    img.logo(src="/images/IMG_00341.jpg", width="300px")
+    li Likes to sleep and eat    
+    li Doesn't bark too often
+    li Very fast so don't let her get away 
+    li Doesn't like hardwood or kitchen floors, she sometimes tends to slip and fall
+  h4 
+    a(href="/orderform") Dominick
+    img.logo(src="https://wallpapercave.com/wp/ewes3uq.jpg", width="300px")
+    li Likes to stick his tounge out
+    li Rolls around a lot
+    li Will be friend
+    li May get stuck on his back
+  h4 
+   a(href="/orderform") McDaniel
+   img.logo(src="http://www.4freephotos.com/medium/2015/Cute-beagle-dog-6346.jpg", width="300px")
+   li Always sniffing something out 
+   li Likes to run in open fields
+   li Snuggle Buddy
+   li Will bark at everything, even his own tail
+  h4 
+   a(href="/orderform") Rowdy
+   img.logo(src="https://ewedit.files.wordpress.com/2017/07/gettyimages-140903913.jpg?crop=0px%2C1484px%2C1800px%2C946px&resize=1200%2C630", width="300px")
+   li Very quiet 
+   li Moves randomly on you 
+   li Great listener 
+   li Taxidermy dog
+  h4 
+   a(href="/orderform") Edsward
+   img.logo(src="https://i.pinimg.com/736x/38/51/15/385115bedf85d129539d85d809bd0d6c--labrador-dogs-black-labrador-retriever.jpg", width="250px")
+   li Very loyal 
+   li Will befriend anyone
+   li ladies man 
+   li Has own agenda most of the time
+  .navbar-b
+    a(href="/") Home
+    a(href="/contact") Contact
+    a(href="/orderform") Order Form
+    a(href="/dogs") Check out dogs here!
+    a(href="/menupage") Pick your dog here!
+    p.
+     Rent-A-Dog Foundation 2017
+  

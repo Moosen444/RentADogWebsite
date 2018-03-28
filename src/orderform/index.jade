@@ -5,21 +5,22 @@ block config
   - var baseUrl = '../'
 
 block content
+  .navbar
+    a(href='/') Home
+    a(href='/contact') Contact
+    a(href='/dogs') Dog Selection
+    a(href='/orderform') Order form
+    a(href='/menupage') Pick Dog Here!
   h2 Here is where you'll fill out your form so you can get one step closer to renting your dog!
   p Order form
-  p https://docs.google.com/document/d/1qaxuYxzL7WShLL9Zgjz0B4QmfBcmYlFZRtVc80oYy5I/edit
-  block footer
-  footer
-  ul
-  li
-  a(href="/") Home
-  li
-  a(href="/contact") Contact
-  li
-  a(href="/dogs") Check out dogs here!
-  li
-  a(href="/menupage") Pick your dog here!
-  li.
-  p.
-    Rent-A-Dog Foundation 2017
-  footer
+  a(href="https://docs.google.com/document/d/1qaxuYxzL7WShLL9Zgjz0B4QmfBcmYlFZRtVc80oYy5I/edit") Fill out Order Form here!
+  p 
+  img.logo(src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbUZIYN32mMAchWve04W-tifisRp72GKVbihv26oCi5o-gTyZU", width="500px")
+  .navbar-b
+    a(href="/") Home
+    a(href="/contact") Contact
+    a(href="/orderform") Order Form
+    a(href="/dogs") Check out dogs here!
+    a(href="/menupage") Pick your dog here!
+    p.
+      Rent-A-Dog Foundation 2017
